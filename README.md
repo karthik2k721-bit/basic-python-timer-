@@ -2,35 +2,12 @@ Minimal Python Timer
 
 This repository contains a minimal countdown timer with both **console** and **GUI** versions, using only the Python standard library.
 
-Files
-- [timer.py](timer.py): Console countdown timer with pause/resume and simple beep on completion.
-- [timer_gui.py](timer_gui.py): Tkinter GUI countdown timer with graphical controls.
 - [README.md](README.md): This file with usage and examples.
 
 Requirements
 - Python 3.8+ (works with newer Python versions as well)
 - No external packages required (standard library only)
-  - Console: Uses `argparse`, `threading`, `signal`, `time`
-  - GUI: Uses `tkinter` (built-in to Python)
-
-Quick usage
-
-Start a 90-second timer:
-
-```bash
-python timer.py --seconds 90
-```
-
-Start a 1 minute 30 second timer:
-
-```bash
-python timer.py --time 01:30
-```
-
-Controls while running (press a key):
-- `p` — pause / resume
-- `s` — stop and exit
-- `q` — quit immediately
+- GUI: Uses `tkinter` (built-in to Python)
 
 GUI Usage
 
